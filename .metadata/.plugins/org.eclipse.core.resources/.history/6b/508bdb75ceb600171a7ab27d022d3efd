@@ -1,0 +1,28 @@
+package Logic;
+
+public class Buyer implements NewProduct {
+	private Product p ;
+
+	public void newP() {
+		// TODO Auto-generated method stub
+		System.out.println("new product");
+	}
+
+	public void updateP() {
+		// TODO Auto-generated method stub
+		System.out.println("new update");
+	}
+
+	public Product getP() {
+		return p;
+	}
+
+	public void setP(Product p) {
+		this.p = p;
+	}
+
+	
+	
+	
+
+}

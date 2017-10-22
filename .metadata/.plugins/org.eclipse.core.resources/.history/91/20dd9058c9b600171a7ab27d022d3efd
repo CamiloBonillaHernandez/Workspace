@@ -1,0 +1,28 @@
+package Logic;
+
+import java.util.ArrayList;
+
+public class NotifyNewProduct implements Action{
+	
+	private static ArrayList<NewProduct> observers;
+	
+	public NotifyNewProduct(){
+		observers = new ArrayList();
+	}
+	
+	public void attach(NewProduct observer) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void dettach(NewProduct observer) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void notifyObservers() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

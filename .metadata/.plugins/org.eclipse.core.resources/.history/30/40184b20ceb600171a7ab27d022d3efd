@@ -1,0 +1,21 @@
+package Logic;
+
+import java.util.ArrayList;
+
+public class Seler {
+	
+	private ArrayList<Buyer> buyers;
+	
+	public Seler(){
+		buyers = new ArrayList<Buyer>();
+	}
+	
+	public void newProduct(Product p, Buyer b){
+		buyers.add(b);
+		NotifyNewProduct n = new NotifyNewProduct();
+		if (p.getState().equals("New")) {
+			n.notifyObserversNewProduct();
+		}
+			n.notifyObserversNewUpdate();
+	}
+}

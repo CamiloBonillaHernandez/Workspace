@@ -1,0 +1,8 @@
+package Logic;
+
+public class Snippet {
+	public static void main(String[] args) {
+		saved.addMemento(p.saveToMemento());
+	}
+}
+

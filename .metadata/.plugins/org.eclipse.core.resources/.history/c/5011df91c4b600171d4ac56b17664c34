@@ -1,0 +1,17 @@
+package Logic;
+
+import java.util.ArrayList;
+
+public class SavedLocations {
+	
+	private ArrayList<Memento> locations = new ArrayList();
+	
+	
+	public void addMemento(Memento m){
+		locations.add(m);
+	}
+	
+	public Memento getMemento(int i){
+		return locations.get(i);
+	}
+}

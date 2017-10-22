@@ -1,0 +1,13 @@
+package Logic;
+
+public class Buyer implements NewProduct {
+
+	public void newP() {
+		System.out.println("new product of: ");
+	}
+
+	public void updateP() {
+		System.out.println("new update of the product: ");
+	}
+
+}

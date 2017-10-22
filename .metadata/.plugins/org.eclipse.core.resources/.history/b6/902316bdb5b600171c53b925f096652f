@@ -1,0 +1,18 @@
+package Actions;
+
+import Logic.Command;
+import Logic.Tank;
+
+public class EvacuateTank implements Command{
+	private Tank tank;
+	
+	public EvacuateTank(Tank t){
+		this.tank = t;
+	}
+
+	public void execute() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

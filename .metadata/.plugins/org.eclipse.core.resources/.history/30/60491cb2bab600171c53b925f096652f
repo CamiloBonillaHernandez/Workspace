@@ -1,0 +1,25 @@
+package Logic;
+
+public class NumericExpression {
+	private String value;
+
+
+
+	pubilc NumericExpression(String token)
+
+	{
+
+		this.value = token;
+
+	}
+
+	public interpret(Context context)
+
+	{
+
+		context.setOperator(context.getInteger(this.value));
+
+		context.calculate();
+
+	}
+}

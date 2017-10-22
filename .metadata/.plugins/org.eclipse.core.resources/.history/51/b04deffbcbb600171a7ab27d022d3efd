@@ -1,0 +1,17 @@
+package Logic;
+
+public class Seler {
+	
+	public void newProduct(Product p){
+		if (p.getState().equals("New")) {
+			NotifyNewProduct n = new NotifyNewProduct();
+			System.out.println("aaaaaaaaaaaaaaa");
+			n.notifyObserversNewProduct();
+			System.out.println("bbbbbbbbbb");
+		}else if(p.getState().equals("Update")){
+			NotifyNewProduct n = new NotifyNewProduct();
+			System.out.println("ccccccccccc");
+			n.notifyObserversNewUpdate();
+		}
+	}
+}

@@ -1,0 +1,92 @@
+!SESSION 2017-10-21 19:58:27.677 -----------------------------------------------
+eclipse.buildId=debbuild
+java.version=1.8.0_131
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=es_CO
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2017-10-21 19:58:30.256
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+!SESSION 2017-10-21 20:27:18.516 -----------------------------------------------
+eclipse.buildId=debbuild
+java.version=1.8.0_131
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=es_CO
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2017-10-21 20:27:21.140
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+!SESSION 2017-10-22 09:37:58.793 -----------------------------------------------
+eclipse.buildId=debbuild
+java.version=1.8.0_131
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=es_CO
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2017-10-22 09:52:21.910
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10001 2017-10-22 09:52:21.910
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2017-10-22 09:52:21.910
+!MESSAGE "Eclipse CVS Client" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2017-10-22 09:52:21.910
+!MESSAGE "Eclipse Plug-in Development Environment" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2017-10-22 09:52:21.910
+!MESSAGE "Eclipse Java Development Tools" will be ignored because a newer version is already installed. 
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2017-10-22 09:52:21.910
+!MESSAGE The following software cannot be installed because it is intended for use only in Plug-in Development Environment (PDE) target platforms. Please deselect these items and retry the operation.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2017-10-22 09:52:21.910
+!MESSAGE Gyrex Target Components plus Dependencies (Incubation) 0.10.0.v20110608-0640-19L-EaETOz0CF-Ch0YjMz-VRo3Oo (org.eclipse.gyrex.features.sdk.feature.group 0.10.0.v20110608-0640-19L-EaETOz0CF-Ch0YjMz-VRo3Oo)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2017-10-22 09:52:21.910
+!MESSAGE If provisioning a target platform then try disabling the option 'Include required software'
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2017-10-22 09:52:21.961
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10001 2017-10-22 09:52:21.961
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2017-10-22 09:52:21.961
+!MESSAGE "Eclipse CVS Client" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2017-10-22 09:52:21.961
+!MESSAGE "Eclipse Plug-in Development Environment" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2017-10-22 09:52:21.961
+!MESSAGE "Eclipse Java Development Tools" will be ignored because a newer version is already installed. 
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2017-10-22 09:52:21.961
+!MESSAGE The following software cannot be installed because it is intended for use only in Plug-in Development Environment (PDE) target platforms. Please deselect these items and retry the operation.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2017-10-22 09:52:21.961
+!MESSAGE Gyrex Target Components plus Dependencies (Incubation) 0.10.0.v20110608-0640-19L-EaETOz0CF-Ch0YjMz-VRo3Oo (org.eclipse.gyrex.features.sdk.feature.group 0.10.0.v20110608-0640-19L-EaETOz0CF-Ch0YjMz-VRo3Oo)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2017-10-22 09:52:21.961
+!MESSAGE If provisioning a target platform then try disabling the option 'Include required software'
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2017-10-22 10:04:13.170
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10001 2017-10-22 10:04:13.170
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2017-10-22 10:04:13.170
+!MESSAGE "Eclipse CVS Client" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2017-10-22 10:04:13.170
+!MESSAGE "Eclipse Plug-in Development Environment" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2017-10-22 10:04:13.170
+!MESSAGE "Eclipse Java Development Tools" will be ignored because a newer version is already installed. 
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2017-10-22 10:04:13.170
+!MESSAGE The following software cannot be installed because it is intended for use only in Plug-in Development Environment (PDE) target platforms. Please deselect these items and retry the operation.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2017-10-22 10:04:13.170
+!MESSAGE Rich Ajax Platform (RAP) Target Components 1.4.2.20120213-1324 (org.eclipse.rap.runtime.sdk.feature.group 1.4.2.20120213-1324)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2017-10-22 10:04:13.170
+!MESSAGE If provisioning a target platform then try disabling the option 'Include required software'
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2017-10-22 10:04:13.190
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10001 2017-10-22 10:04:13.190
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2017-10-22 10:04:13.190
+!MESSAGE "Eclipse CVS Client" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2017-10-22 10:04:13.190
+!MESSAGE "Eclipse Plug-in Development Environment" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2017-10-22 10:04:13.190
+!MESSAGE "Eclipse Java Development Tools" will be ignored because a newer version is already installed. 
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2017-10-22 10:04:13.190
+!MESSAGE The following software cannot be installed because it is intended for use only in Plug-in Development Environment (PDE) target platforms. Please deselect these items and retry the operation.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2017-10-22 10:04:13.191
+!MESSAGE Rich Ajax Platform (RAP) Target Components 1.4.2.20120213-1324 (org.eclipse.rap.runtime.sdk.feature.group 1.4.2.20120213-1324)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2017-10-22 10:04:13.191
+!MESSAGE If provisioning a target platform then try disabling the option 'Include required software'

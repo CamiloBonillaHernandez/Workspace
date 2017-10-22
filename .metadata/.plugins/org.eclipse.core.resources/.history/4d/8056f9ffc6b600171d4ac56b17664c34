@@ -1,0 +1,13 @@
+package Logic;
+
+public class Product {
+	
+	private String Name;
+	private String description;
+	
+	public Product(String name, String des){
+		this.name = name;
+		this.description = desc;
+		
+	}
+}

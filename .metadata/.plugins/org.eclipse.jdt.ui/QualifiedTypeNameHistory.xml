@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="Logic.Action"/>
+<fullyQualifiedTypeName name="java.lang.Process"/>
+<fullyQualifiedTypeName name="Logic.NotifyNewProduct"/>
+<fullyQualifiedTypeName name="Logic.Seler"/>
+<fullyQualifiedTypeName name="Logic.NewProduct"/>
+<fullyQualifiedTypeName name="Logic.Product"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="Logic.Buyer"/>
+</qualifiedTypeNameHistroy>

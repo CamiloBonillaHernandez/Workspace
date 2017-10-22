@@ -1,0 +1,35 @@
+package Logic;
+
+import java.util.ArrayList;
+
+public class NotifyNewProduct implements Action{
+	
+	private static ArrayList<NewProduct> observers;
+	
+	public NotifyNewProduct(){
+		observers = new ArrayList();
+	}
+	
+	public void attach(NewProduct observer) {
+		observers.add(observer);
+	}
+
+	public void dettach(NewProduct observer) {
+		observers.remove(observer);		
+	}
+
+	public void notifyObserversNewProduct() {
+		for (int i = 0; i < observers.size(); i++) {
+			System.out.println("q11111");
+			observers.get(i).newP();
+		}
+	}
+
+	public void notifyObserversNewUpdate() {
+		for (int i = 0; i < observers.size(); i++) {
+			System.out.println("q22222");
+			observers.get(i).updateP();
+		}
+	}
+
+}

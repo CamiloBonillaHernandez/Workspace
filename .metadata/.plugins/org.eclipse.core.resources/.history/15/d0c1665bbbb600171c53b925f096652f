@@ -1,0 +1,18 @@
+package Run;
+
+import java.util.ArrayList;
+
+import Logic.Context;
+
+public class run {
+	
+	public static void main(String[] args) {
+		ArrayList tree = new ArrayList();
+		Context context = new Context();
+		
+		for(String token : args){
+			
+		}
+		
+	}
+}

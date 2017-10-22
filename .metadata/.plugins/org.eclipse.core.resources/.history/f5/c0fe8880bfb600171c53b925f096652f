@@ -1,0 +1,33 @@
+package Run;
+
+import java.util.ArrayList;
+
+import Logic.Context;
+import Logic.Expression;
+import Logic.NumericExpression;
+import Logic.OperationType;
+
+public class run {
+
+	public static void main(String[] args) {
+
+		ArrayList<Expression> nTree = new ArrayList();
+		Context context = new Context();
+
+		// añadiendo numeros a interpretar
+		for(String token : args){
+			if(context.getInteger(token) >= 0){
+				System.out.println(token);
+				nTree.add(new NumericExpression(token));
+			}else{
+				nTree.add(new OperationType(token));
+				System.out.println(token);
+			}
+		}
+
+		//interpretando
+		for (Expression e : nTree) {
+			e.interpret(c);
+		}
+	}
+}

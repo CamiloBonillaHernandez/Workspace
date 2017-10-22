@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>MiZapas</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+<link rel="stylesheet" href="css/prettyPhoto.css" type="text/css">
+<link rel="stylesheet" href="css/flexslider.css" type="text/css">
+<link rel="stylesheet" href="css/style.css" type="text/css">
+<!--[if lt IE 9]>
+<script src="js/html5.js"></script>
+<script src="js/selectivizr-min.js"></script>
+<link rel="stylesheet" href="css/ie.css" type="text/css">
+<![endif]-->
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/jquery-ui-1.8.16.custom.min.js"></script>
+<script src="js/all-in-one-min.js"></script>
+<script src="js/setup.js"></script>
+<script>
+$(window).load(function () {
+    $('.flexslider').flexslider();
+});
+
+$(function () {
+    $('#work').carouFredSel({
+        width: '100%',
+        scroll: 1,
+        auto: false,
+        pagination: false,
+        prev: '.prev_item',
+        next: '.next_item'
+    });
+
+    $("#work").touchwipe({
+        wipeLeft: function () { $('.next_item').trigger('click'); },
+        wipeRight: function () { $('.prev_item').trigger('click'); }
+    });
+});
+
+$(window).load(function(){
+	$('#demo-side-bar').removeAttr('style');
+});
+</script>
+<style type="text/css">
+.demobar {
+	display:none;
+}
+#demo-side-bar {
+	top:53px!important;
+	left:90%!important;
+	display:block!important;
+}
+</style>
+</head>
+<body>
+<header class="header_bg clearfix">
+  <div class="container clearfix">
+   
+    <div class="logo"> <a href="index.html"><img src="images/logo.png" width="100" height="100" alt=""></a> </div>
+    <nav class="main-menu">
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li> <a>Productos</a>
+          <ul>
+            <li><a >Zapatillas</a></li>
+            <li><a ">Camisas</a></li>
+            <li><a ">Medias</a></li>
+            <li><a ">Pantalonetas</a>
+          </ul>
+        </li>
+        <li><a>Compras</a>
+        </li>
+        <li><a >Blog</a></li>
+        <li><a>Contacto</a></li>
+      </ul>
+    </nav>
+    <!-- /Master Nav -->
+  </div>
+</header>
+<!-- /Header -->
+<div class="clear"></div>
+<!-- Slider -->
+<div class="bannerbg">
+  <div class="container clearfix">
+    <div class="flexslider" >
+      <ul class="slides">
+        <li> <img src="images/fslide01.jpg" alt="">
+        </li>
+        <li> <a href="#"><img src="images/fslide02.jpg" alt=""></a> </li>
+        <li> <img src="images/fslide03.jpg" alt="">
+          
+        </li>
+        <li> <img src="images/fslide04.jpg" alt=""> </li>
+        <li> <img src="images/fslide05.jpg" alt=""> </li>
+        <li> <img src="images/fslide06.jpg" alt=""> </li>
+      </ul>
+    </div>
+  </div>
+</div>
+<!-- /Slider -->
+<div class="clear padding40"></div>
+<!-- Content -->
+<section class="container clearfix">
+  <!-- START FEATURED COLUMNS -->
+  <div class="col_1_3">
+    <div class="features">
+      <div class="title clearfix" alt="" class="alignleft">
+       <a href="portfolio-2-cols.html"> <img src ="images/1.jpg" border="0" width="250" height="250"></a>
+      </div>
+      <p>NIKE KD9. ELITE. <br />
+    </div>
+  </div>
+  <div class="col_1_3">
+    <div class="features">
+      <div class="title clearfix" class="alignleft">
+         <a href="portfolio-3-cols.html"> <img src ="images/2.jpg" border="0" width="280" height="250"></a>
+      </div>
+      <p>NIKE HYPERDUNK I.D.<br />
+    </div>
+  </div>
+  <div class="col_1_3 last">
+    <div class="features">
+      <div class="title clearfix" class="alignleft">
+         <a href="portfolio-4-cols.html"> <img src ="images/3.jpg" border="0" width="280" height="250"></a>
+      </div>
+      <p>NIKE KYRIE IRVING 2 I.D <br />
+    </div>
+  </div>
+  <!-- END FEATURED COLUMNS -->
+  <div class="clear padding10"></div>
+  
+  
+</section>
+<!-- /Content -->
+<section class="homepage_widgets_bg clearfix">
+  <div class="container clearfix">
+    <div class="padding20"></div>
+    <!-- START COL 1/2 -->
+    <div class="col_1_2 ">
+      <h1 class="regular white bottom_line">Acerca de nosotros</h1>
+      <p>Mi Zapas es una organización que dedica su esfuerzo a ofrecer servicios y productos originales para quienes practican diferentes deportes. Desde su creación MiZapas se ha caracterizado por ofrecer productos exclusivos de las mejores marcas.</p>
+      <p>Nuestro principal objetivo es el de aprovechar las bondades de las tecnologías de información que internet pone a nuestra disposición en beneficio de nuestros clientes. Estamos ofreciendo a través de este servicio, la posibilidad de adquirir implementos deportivos importados y originales, y contando con envíos gratis a todo el país, para así facilitar la adquisición de nuestros productos a todos nuestros clientes.</p>
+
+    </div>
+    <!-- END COL 1/2 -->
+    <!-- START COL 1/2 -->
+    <div class="col_1_2 last" id="why-section">
+      <h1 class="regular white bottom_line">Por qué nosotros</h1>
+      <div><a href="#"><img class="alignleft MT0" id="why1" src="images/rapidez.jpg" width="70" height="70" alt=""></a></div>
+      <p> Cumplimos con la rápidez en la entrega, para que nuestros clientes se sientan comodos. </p>
+      <div class="clear padding10"></div>
+      <div><a href="#"><img class="alignleft MT0" id="why2" src="images/gratis.jpg" width="70" height="70" alt=""></a></div>
+      <p> Envío gratis </p>
+      <div class="clear padding10"></div>
+      <div><a href="#"><img class="alignleft MT0" id="why3" src="images/ahorro.jpg" width="70" height="70" alt=""></a></div>
+      <p>Los mejores precios </p>
+    </div>
+    <div class="clear padding10"></div>
+   
+    <div class="clear padding80"></div>
+  </div>
+</section>
+<!-- footer -->
+<footer class="footer_bg_bottom clearfix">
+  <div class="footer_bottom container">
+    <div class="col_2_3">
+      <div class="menu">
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li>Productos</a></li>
+          <li>Blog</a></li>
+          <li>Contacto</a></li>
+        </ul>
+      </div>
+      <div class="clear padding20"></div>
+      <p>&copy; Copyright 2012 <a href="#">Company Name</a> - All Rights Reserved. | Website Template By <a target="_blank" href="http://www.egrappler.com/">EGrappler</a></p>
+    </div>
+    <div class="clear padding20"></div>
+  </div>
+</footer>
+<!-- /footer -->
+<div id="demo-side-bar"> </div>
+<!--wrapper end-->
+</body>
+</html>

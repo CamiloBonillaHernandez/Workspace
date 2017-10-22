@@ -1,0 +1,13 @@
+package Logic;
+
+public class Player {
+	
+	private String name;
+	private String Location;
+	
+	
+	public Memento saveToMemento(){
+		
+	}
+	
+}

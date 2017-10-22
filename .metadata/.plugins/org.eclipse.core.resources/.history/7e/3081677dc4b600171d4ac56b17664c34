@@ -1,0 +1,9 @@
+package Logic;
+
+import java.util.ArrayList;
+
+public class SavedLocations {
+	
+	private ArrayList<Memento> locations = new ArrayList();
+	
+}

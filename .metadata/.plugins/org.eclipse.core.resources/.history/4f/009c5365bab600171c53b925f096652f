@@ -1,0 +1,21 @@
+package Logic;
+
+public class OperationType {
+	
+	private String operation;
+	
+	public OperationType(String operation){
+		this.operation = token;
+	}
+
+	public interpret(Context context)
+
+	{
+
+		context.setOperation(this.operation);
+
+		context.calculate();
+
+	}
+
+}

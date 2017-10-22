@@ -1,0 +1,7 @@
+package Actions;
+
+import Logic.Command;
+
+public class EvacuateTank implements Command{
+
+}

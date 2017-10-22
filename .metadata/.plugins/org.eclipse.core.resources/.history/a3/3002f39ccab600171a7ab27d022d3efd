@@ -1,0 +1,18 @@
+package Run;
+
+import Logic.Buyer;
+import Logic.NotifyNewProduct;
+import Logic.Product;
+
+public class run {
+	
+	public static void main(String[] args) {
+		NotifyNewProduct n = new NotifyNewProduct();
+		n.attach(new Buyer());
+		
+		Product nP = new Product("Razer Mouse", "Gaming mouse", "New");
+		Product uP = new Product("Razer Keyboard", "Gaming keyboard V2.0", "Update");
+		
+		
+	}
+}

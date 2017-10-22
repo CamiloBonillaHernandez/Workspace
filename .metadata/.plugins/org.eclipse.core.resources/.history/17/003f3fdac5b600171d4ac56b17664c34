@@ -1,0 +1,36 @@
+package Run;
+
+import java.io.ObjectInputStream.GetField;
+
+import Logic.Player;
+import Logic.SavedLocations;
+
+public class run {
+	
+	public static void main(String[] args) {
+		
+		SavedLocations saved = new SavedLocations();
+		
+		Player p = new Player("LycanMDO", "Island of Down");
+		saved.addMemento(p.saveToMemento());
+		
+		p.setLocation("Lumbertown");
+		saved.addMemento(p.saveToMemento());
+		
+		p.setLocation("Velika");
+		saved.addMemento(p.saveToMemento());
+		
+		p.setLocation("Pora elinu");
+		saved.addMemento(p.saveToMemento());
+		
+		p.setLocation("Kaiator");
+		
+		System.out.println("Current locations: "+ p.getLocation());
+		
+		System.out.println("Locations saved");
+		for (int i = 0; i < saved.getLocations().size(); i++) {
+			System.out.println(saved.getLocations().get(i).getSavedLocation());
+		}
+		
+	}
+}
