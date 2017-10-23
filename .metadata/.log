@@ -90,3 +90,121 @@ Command-line arguments:  -os linux -ws gtk -arch x86_64
 !MESSAGE Rich Ajax Platform (RAP) Target Components 1.4.2.20120213-1324 (org.eclipse.rap.runtime.sdk.feature.group 1.4.2.20120213-1324)
 !SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2017-10-22 10:04:13.191
 !MESSAGE If provisioning a target platform then try disabling the option 'Include required software'
+!SESSION 2017-10-22 10:09:42.948 -----------------------------------------------
+eclipse.buildId=debbuild
+java.version=1.8.0_131
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=es_CO
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2017-10-22 10:32:07.495
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2017-10-22 10:32:07.496
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2017-10-22 10:32:07.496
+!MESSAGE Software being installed: Eclipse Integration Commons 3.9.1.201710100503-RELEASE (org.springsource.ide.eclipse.commons.feature.group 3.9.1.201710100503-RELEASE)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2017-10-22 10:32:07.496
+!MESSAGE Missing requirement: SpringSource Tool Suite Workspace Configuration 3.9.1.201710100503-RELEASE (org.springsource.ide.eclipse.commons.configurator 3.9.1.201710100503-RELEASE) requires 'bundle org.springframework.core [4.0.0,4.4.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2017-10-22 10:32:07.496
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-10-22 10:32:07.496
+!MESSAGE From: Eclipse Integration Commons 3.9.1.201710100503-RELEASE (org.springsource.ide.eclipse.commons.feature.group 3.9.1.201710100503-RELEASE)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-10-22 10:32:07.496
+!MESSAGE To: org.springsource.ide.eclipse.commons.configurator [3.9.1.201710100503-RELEASE]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2017-10-22 10:32:07.498
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2017-10-22 10:32:07.498
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2017-10-22 10:32:07.498
+!MESSAGE Software being installed: Eclipse Integration Commons 3.9.1.201710100503-RELEASE (org.springsource.ide.eclipse.commons.feature.group 3.9.1.201710100503-RELEASE)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2017-10-22 10:32:07.498
+!MESSAGE Missing requirement: SpringSource Tool Suite Workspace Configuration 3.9.1.201710100503-RELEASE (org.springsource.ide.eclipse.commons.configurator 3.9.1.201710100503-RELEASE) requires 'bundle org.springframework.core [4.0.0,4.4.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2017-10-22 10:32:07.498
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-10-22 10:32:07.498
+!MESSAGE From: Eclipse Integration Commons 3.9.1.201710100503-RELEASE (org.springsource.ide.eclipse.commons.feature.group 3.9.1.201710100503-RELEASE)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-10-22 10:32:07.498
+!MESSAGE To: org.springsource.ide.eclipse.commons.configurator [3.9.1.201710100503-RELEASE]
+
+!ENTRY org.eclipse.ui 2 2 2017-10-22 10:35:16.382
+!MESSAGE Invalid property category path: org.eclipse.cdt.managedbuilder.ui.properties.Page_head_build (bundle: org.eclipse.cdt.ui, propertyPage: org.eclipse.cdt.managedbuilder.ui.properties.BuildLogPreferencePage)
+!SESSION 2017-10-22 10:36:40.927 -----------------------------------------------
+eclipse.buildId=debbuild
+java.version=1.8.0_131
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=es_CO
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2017-10-22 10:36:58.870
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2017-10-22 10:36:58.870
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2017-10-22 10:36:58.870
+!MESSAGE Software being installed: Eclipse Integration Commons 3.9.1.201710100503-RELEASE (org.springsource.ide.eclipse.commons.feature.group 3.9.1.201710100503-RELEASE)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2017-10-22 10:36:58.870
+!MESSAGE Missing requirement: SpringSource Tool Suite Workspace Configuration 3.9.1.201710100503-RELEASE (org.springsource.ide.eclipse.commons.configurator 3.9.1.201710100503-RELEASE) requires 'bundle org.springframework.core [4.0.0,4.4.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2017-10-22 10:36:58.870
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-10-22 10:36:58.870
+!MESSAGE From: Eclipse Integration Commons 3.9.1.201710100503-RELEASE (org.springsource.ide.eclipse.commons.feature.group 3.9.1.201710100503-RELEASE)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-10-22 10:36:58.870
+!MESSAGE To: org.springsource.ide.eclipse.commons.configurator [3.9.1.201710100503-RELEASE]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2017-10-22 10:36:58.874
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2017-10-22 10:36:58.874
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2017-10-22 10:36:58.874
+!MESSAGE Software being installed: Eclipse Integration Commons 3.9.1.201710100503-RELEASE (org.springsource.ide.eclipse.commons.feature.group 3.9.1.201710100503-RELEASE)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2017-10-22 10:36:58.874
+!MESSAGE Missing requirement: SpringSource Tool Suite Workspace Configuration 3.9.1.201710100503-RELEASE (org.springsource.ide.eclipse.commons.configurator 3.9.1.201710100503-RELEASE) requires 'bundle org.springframework.core [4.0.0,4.4.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2017-10-22 10:36:58.874
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-10-22 10:36:58.874
+!MESSAGE From: Eclipse Integration Commons 3.9.1.201710100503-RELEASE (org.springsource.ide.eclipse.commons.feature.group 3.9.1.201710100503-RELEASE)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-10-22 10:36:58.874
+!MESSAGE To: org.springsource.ide.eclipse.commons.configurator [3.9.1.201710100503-RELEASE]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2017-10-22 10:37:19.379
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2017-10-22 10:37:19.379
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2017-10-22 10:37:19.379
+!MESSAGE Software being installed: Eclipse Integration Commons 3.9.1.201710100503-RELEASE (org.springsource.ide.eclipse.commons.feature.group 3.9.1.201710100503-RELEASE)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2017-10-22 10:37:19.379
+!MESSAGE Missing requirement: SpringSource Tool Suite Workspace Configuration 3.9.1.201710100503-RELEASE (org.springsource.ide.eclipse.commons.configurator 3.9.1.201710100503-RELEASE) requires 'bundle org.springframework.core [4.0.0,4.4.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2017-10-22 10:37:19.379
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-10-22 10:37:19.379
+!MESSAGE From: Eclipse Integration Commons 3.9.1.201710100503-RELEASE (org.springsource.ide.eclipse.commons.feature.group 3.9.1.201710100503-RELEASE)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-10-22 10:37:19.379
+!MESSAGE To: org.springsource.ide.eclipse.commons.configurator [3.9.1.201710100503-RELEASE]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2017-10-22 10:37:19.380
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2017-10-22 10:37:19.381
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2017-10-22 10:37:19.381
+!MESSAGE Software being installed: Eclipse Integration Commons 3.9.1.201710100503-RELEASE (org.springsource.ide.eclipse.commons.feature.group 3.9.1.201710100503-RELEASE)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2017-10-22 10:37:19.381
+!MESSAGE Missing requirement: SpringSource Tool Suite Workspace Configuration 3.9.1.201710100503-RELEASE (org.springsource.ide.eclipse.commons.configurator 3.9.1.201710100503-RELEASE) requires 'bundle org.springframework.core [4.0.0,4.4.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2017-10-22 10:37:19.381
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-10-22 10:37:19.381
+!MESSAGE From: Eclipse Integration Commons 3.9.1.201710100503-RELEASE (org.springsource.ide.eclipse.commons.feature.group 3.9.1.201710100503-RELEASE)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-10-22 10:37:19.381
+!MESSAGE To: org.springsource.ide.eclipse.commons.configurator [3.9.1.201710100503-RELEASE]
+
+!ENTRY org.eclipse.ui 2 2 2017-10-22 10:37:36.924
+!MESSAGE Invalid property category path: org.eclipse.cdt.managedbuilder.ui.properties.Page_head_build (bundle: org.eclipse.cdt.ui, propertyPage: org.eclipse.cdt.managedbuilder.ui.properties.BuildLogPreferencePage)
+!SESSION 2017-10-23 09:24:54.278 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_131
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=es_CO
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.ui 1 1 2017-10-23 09:25:21.692
+!MESSAGE Workbench migration started
